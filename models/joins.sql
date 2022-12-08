@@ -25,5 +25,5 @@ LEFT JOIN prod  pd  ON pd.product_id = od.product_id
     FROM orddetail     od
     JOIN orders ord ON ord.order_id = od.order_id
 )
-SELECT * FROM finaljoin LIMIT 3000
+SELECT * FROM finaljoin
 
